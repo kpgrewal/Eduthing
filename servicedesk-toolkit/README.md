@@ -28,7 +28,7 @@ If scripts are blocked: `Set-ExecutionPolicy -Scope Process Bypass`
 
 ## About this project
 
-Built with AI assistance (Claude Code) and reviewed and tested by a working service desk engineer. The scripts are read-only by default. The one that deletes anything (`Clear-UserTempFiles`) supports `-WhatIf`, only removes files older than a set age, and skips system locations unless elevated.
+Reviewed and tested by a working service desk engineer. The scripts are read-only by default. The one that deletes anything (`Clear-UserTempFiles`) supports `-WhatIf`, only removes files older than a set age, and skips system locations unless elevated.
 
 ## Licence
 
