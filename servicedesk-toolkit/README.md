@@ -9,6 +9,7 @@ Small, dependency-free PowerShell scripts for Level 2 service desk work. No modu
 | [Get-EventLogSummary.ps1](scripts/Get-EventLogSummary.ps1) | Repeated crashes or reboots. Groups recent errors and flags BSOD, unexpected shutdown and disk-error events. |
 | [Clear-UserTempFiles.ps1](scripts/Clear-UserTempFiles.ps1) | Low disk space. Cleans temp and browser caches safely. Supports `-WhatIf` to preview. |
 | [Export-InstalledSoftware.ps1](scripts/Export-InstalledSoftware.ps1) | Licence audits and "what version do they have?" Exports installed apps to CSV without touching `Win32_Product`. |
+| [Find-DiskSpaceHogs.ps1](scripts/Find-DiskSpaceHogs.ps1) | Disk full. Read-only scan showing the biggest folders and files, so you know what to clear before using the cleanup script. |
 | [Get-ADUserStatus.ps1](scripts/Get-ADUserStatus.ps1) | "I can't log in." Shows enabled, locked, password expiry and last logon in one view, with optional `-Unlock`. Also lists locked accounts and passwords expiring soon. Needs RSAT. |
 | [Repair-PrinterAndDrives.ps1](scripts/Repair-PrinterAndDrives.ps1) | "Printer stuck" or "drive missing." Reports spooler, queue and mapped-drive state, and with `-Fix` restarts the spooler, clears jobs and reconnects drives. |
 | [New-KBArticle.ps1](scripts/New-KBArticle.ps1) | After solving a ticket. Turns your notes into a consistently formatted Markdown KB article. |

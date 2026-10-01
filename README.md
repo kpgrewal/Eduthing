@@ -6,7 +6,7 @@ Practical tools built with AI assistance (Claude) and tested on real Windows mac
 
 | Project | Description |
 |---|---|
-| [servicedesk-toolkit](servicedesk-toolkit/) | Dependency-free PowerShell scripts for Level 2 service desk: system health, network triage, event log summary, safe temp cleanup, software inventory, AD user status, printer and drive repair, and a KB article generator. |
+| [servicedesk-toolkit](servicedesk-toolkit/) | Dependency-free PowerShell scripts for Level 2 service desk: system health, network triage, event log summary, safe temp cleanup, disk space finder, software inventory, AD user status, printer and drive repair, and a KB article generator. |
 
 ## How I work
 
